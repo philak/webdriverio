@@ -309,6 +309,7 @@ exports.config = {
      */
     // onComplete: function(exitCode, config, capabilities, results) {
     // },
+    /*
     onComplete: function() {
         const reportError = new Error('Could not generate Allure report')
         const generation = allure(['generate', 'allure-results', '--clean'])
@@ -329,6 +330,7 @@ exports.config = {
             })
         })
     },
+    */
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session
